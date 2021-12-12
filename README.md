@@ -64,6 +64,7 @@ The deep learning model adopted the thinking of scene flownet3d. It consist of s
 ##### Flowchart
 ![Screenshot from 2021-12-12 00-23-01](https://user-images.githubusercontent.com/70287453/145702686-f6ba5ef4-f984-4c40-8a7a-6c4ddae66944.png)
 
+The model is trained on two pointcloud which both contains randomly choosed 2048 pts. Those points may on the small moving cube and may on the background. There are three setAbsrtaction layers which group points into clusters based on radius. Then, a flow embedding layer is used for feature learning(motion). Followed by three conv up layers, which used to decode motion encoders and finally propagate the outcome to 1d array.  
 
 #### Part 6.Evaluation of the model
 
