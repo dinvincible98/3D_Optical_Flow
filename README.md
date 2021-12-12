@@ -12,8 +12,9 @@ The project is focused on using a rgbd camera(Intel Realsense D435i) to capture 
 * C++, python3(3.8.1)
 
 ### Structure of The Project
-|__ log 
-|__ models
+* log 
+
+*models
 |__ npz
 |__ src
 |__ data_src
