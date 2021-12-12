@@ -17,6 +17,8 @@ The project is focused on using a rgbd camera(Intel Realsense D435i) to capture 
 The simulation is all done in Gazebo. The realsense camera is pointing at the small cube which is the moving object. The giant cube behind acts like a static wall. The idea here is when the small cube is moving which means its pointcloud is also shifting, whereas the wall will not move and act like a ground reference. It is important for the deep learning model to learn the motion.
 
 ![screenshot-from-2021-12-11-18-](https://user-images.githubusercontent.com/70287453/145702636-4ffe441d-6626-43e1-ae83-daf4163bf32a.png)
+$ source devel/setup.bash
+$ roslaunch optical_flow view_d435_model_rviz_gazebo.launch 
 
 #### Part 2.Post-processing raw pointcloud data
 
@@ -24,11 +26,13 @@ In this step, I used PCL library for post-processing raw pointcloud data. I used
 
 ![Webp net-resizeimage](https://user-images.githubusercontent.com/70287453/145702641-c1b3c073-bc2f-4fcc-b7cf-b4ede0dc86e6.png)
 
+$ rosrun optical_flow post_processed_node
 
 #### Part 3.Given random gaussian motion
 
 I wrote a ROS simulation node which subscribe the states of the cube from gazebo world then publish a motion with gaussian noise added to it. The motion is very small(<5mm) since I want to achieve sub-pixel movement prediction.
 
+$ rosrun optical_flow simulation_node
 
 #### Part 4.Capture pointcloud data and corresponding groundtruth motion
 
