@@ -37,6 +37,10 @@ In this step, I firstly saved pointcloud data and corresponding motion data into
 
 The deep learning model adopted the thinking of scene flownet3d. It consist of set conv2d layers, flow-embedding layers and set upconv2d layers. set conv2d layers is used for grouping pointclouds based on a specific radius. flow-embedding layers learns to aggregrate both feature similarites and spatial relationship to produce embeddings that encode point motions. the set upconv2d layers are used to propapage and refine the embedding in a informed way. In the original flownet3d, it uses rgb color as a learning feature and it calculates the geometric differences between two pointcloud. However, my proposed approch does not rely on the rgb color and geometric difference. Insted, I give a groundturth motion for a pair of pointcloud and see if the model can learn such motion.
 
+![Screenshot from 2021-12-12 00-23-01](https://user-images.githubusercontent.com/70287453/145702686-f6ba5ef4-f984-4c40-8a7a-6c4ddae66944.png)
+
+
+
 #### Part 6.Evaluation of the model
 
 I generate around 15000 pointcloud from simulations and I use 13000 files for training and rest for testing. During evaluation, I use two accuarcy metrics. 1.Error within 10mm. 2. Error within 5mm. The final accuracy reaches 78% for errors within 10mm but only 52% for errors within 5mm. Even though the result is not very ideal, it can be improved by creating a larger dataset and tunning some hyperparameters.
