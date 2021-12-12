@@ -1,0 +1,11 @@
+<launch>
+    <!--realsense camera-->
+    <include file="$(find optical_flow)/launch/camera_rgbd.launch" />
+
+    <!--Rviz-->
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find optical_flow)/config/object_tracking.rviz"/>
+
+    <!--Object Tracking-->
+    <node name="object_tracking_node" pkg="optical_flow" type="object_tracking_node" />
+
+</launch>

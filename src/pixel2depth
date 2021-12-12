@@ -1,0 +1,55 @@
+#! /usr/bin/env/python3
+
+from os import posix_fadvise
+import rospy
+from cv_bridge import CvBridge, CvBridgeError
+from sensor_msgs.msg import Image
+import numpy as np
+
+
+
+def convert_depth_image(ros_image):
+    bridge = CvBridge()
+
+    try:
+        depth_image = bridge.imgmsg_to_cv2(ros_image,desired_encoding="passthrough")
+        depth_array = np.array(depth_image,dtype=np.float32)
+        u1 = 634
+        v1 = 237
+        depth1 = depth_array[v1,u1]
+        print("Depth at (634,237): ", depth1)
+
+        u2 = 634
+        v2 = 238
+        depth2 = depth_array[v2,u2]
+        print("Depth at (634,238): ", depth2)
+
+
+        k = np.array([[695.9951171875, 0.0, 640.0], 
+                      [0.0, 695.9951171875, 360.0],
+                      [0.0, 0.0, 1.0]])
+        
+        # deproject 2d pixel into 3d point
+        y1 = (v1 - k[1][2]) * depth1 / k[1][1]
+
+        y2 = (v2 - k[1][2]) * depth2 / k[1][1]  
+
+        dist = y2 - y1
+
+        print(f'The distance between one pixel is {dist} mm')
+
+
+    except CvBridgeError as e:
+        print(e)
+
+def pixel2depth():
+    rospy.init_node("pixel2depth",anonymous=True)
+    rospy.Subscriber("/camera/depth/image_raw",Image,callback=convert_depth_image,queue_size=1)
+    rospy.spin()
+
+
+
+if __name__== "__main__":
+    pixel2depth()
+
+

@@ -1,0 +1,13 @@
+<launch>
+    <include file="$(find optical_flow)/launch/camera.launch" />
+    <include file="$(find optical_flow)/launch/april_tag.launch" />
+
+    <!-- Rviz-->
+
+    <node name="rviz" pkg="rviz" type="rviz"  args="-d $(find optical_flow)/config/april_tag.rviz" />
+
+    <!--Node-->
+    <node name="pose_publisher_node" pkg="optical_flow" type="pose_publisher_node" />
+
+
+</launch>                                                                                                                                                                                                               

@@ -1,0 +1,61 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/dinvincible98/ws1/devel/include/**",
+        "/home/dinvincible98/jackal_ws/devel/include/**",
+        "/home/dinvincible98/rethink_ws/devel/include/**",
+        "/home/dinvincible98/nuws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/dinvincible98/rethink_ws/src/moveit_robots/baxter/baxter_ikfast_left_arm_plugin/include/**",
+        "/home/dinvincible98/rethink_ws/src/moveit_robots/baxter/baxter_ikfast_right_arm_plugin/include/**",
+        "/home/dinvincible98/rethink_ws/src/baxter_simulator/baxter_sim_controllers/include/**",
+        "/home/dinvincible98/rethink_ws/src/baxter_simulator/baxter_sim_hardware/include/**",
+        "/home/dinvincible98/rethink_ws/src/baxter_simulator/baxter_sim_io/include/**",
+        "/home/dinvincible98/rethink_ws/src/baxter_simulator/baxter_sim_kinematics/include/**",
+        "/home/dinvincible98/nuws/src/dynamixel-workbench/dynamixel_workbench_controllers/include/**",
+        "/home/dinvincible98/nuws/src/dynamixel-workbench/dynamixel_workbench_operators/include/**",
+        "/home/dinvincible98/nuws/src/dynamixel-workbench/dynamixel_workbench_toolbox/include/**",
+        "/home/dinvincible98/nuws/src/franka_ros/franka_control/include/**",
+        "/home/dinvincible98/nuws/src/franka_ros/franka_example_controllers/include/**",
+        "/home/dinvincible98/nuws/src/franka_ros/franka_gripper/include/**",
+        "/home/dinvincible98/nuws/src/franka_ros/franka_hw/include/**",
+        "/home/dinvincible98/jackal_ws/src/hdl_global_localization/include/**",
+        "/home/dinvincible98/jackal_ws/src/hdl_localization/include/**",
+        "/home/dinvincible98/jackal_ws/src/hdl_people_tracking/include/**",
+        "/home/dinvincible98/jackal_ws/src/hector_gazebo/hector_gazebo_plugins/include/**",
+        "/home/dinvincible98/jackal_ws/src/hector_gazebo/hector_gazebo_thermal_camera/include/**",
+        "/home/dinvincible98/nuws/src/interbotix_ros_arms/interbotix_examples/interbotix_moveit_interface/include/**",
+        "/home/dinvincible98/nuws/src/interbotix_ros_arms/interbotix_sdk/include/**",
+        "/home/dinvincible98/jackal_ws/src/jackal_robot/jackal_base/include/**",
+        "/home/dinvincible98/ws1/src/jackal_slam/include/**",
+        "/home/dinvincible98/jackal_ws/src/LMS1xx/include/**",
+        "/home/dinvincible98/nuws/src/moveit_visual_tools/include/**",
+        "/home/dinvincible98/jackal_ws/src/ndt_omp/include/**",
+        "/home/dinvincible98/ws1/src/EKF-SLAM-on-Turtlebot3-from-Scratch/nuslam/include/**",
+        "/home/dinvincible98/jackal_ws/src/openslam_gmapping/include/**",
+        "/home/dinvincible98/ws1/src/optical_flow/include/**",
+        "/home/dinvincible98/ws1/src/realsense_gazebo_plugin/include/**",
+        "/home/dinvincible98/ws1/src/EKF-SLAM-on-Turtlebot3-from-Scratch/rigid2d/include/**",
+        "/home/dinvincible98/jackal_ws/src/rosserial/rosserial_server/include/**",
+        "/home/dinvincible98/jackal_ws/src/rosserial/rosserial_test/include/**",
+        "/home/dinvincible98/rethink_ws/src/sawyer_simulator/sawyer_gazebo/include/**",
+        "/home/dinvincible98/rethink_ws/src/sawyer_simulator/sawyer_hardware_interface/include/**",
+        "/home/dinvincible98/rethink_ws/src/sawyer_simulator/sawyer_sim_controllers/include/**",
+        "/home/dinvincible98/rethink_ws/src/sns_ik/sns_ik_lib/include/**",
+        "/home/dinvincible98/nuws/src/trac_ik/trac_ik_kinematics_plugin/include/**",
+        "/home/dinvincible98/nuws/src/trac_ik/trac_ik_lib/include/**",
+        "/home/dinvincible98/nuws/src/turtlebot3_simulations/turtlebot3_fake/include/**",
+        "/home/dinvincible98/nuws/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+        "/home/dinvincible98/nuws/src/turtlebot3/turtlebot3_slam/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}
