@@ -1,0 +1,20 @@
+Namespace(batch_size=16, dataset_path='./npz', epochs=50, eval=False, exp_name='13', lr=0.001, model_path='', momentum=0.9, no_cuda=False, num_points=2048, predict=True, seed=1234, test_batch_size=8, train=False, use_sgd=False, **{'embedd dims': 512})
+Namespace(batch_size=16, dataset_path='./npz', epochs=50, eval=False, exp_name='13', lr=0.001, model_path='', momentum=0.9, no_cuda=False, num_points=2048, predict=True, seed=1234, test_batch_size=8, train=False, use_sgd=False, **{'embedd dims': 512})
+Namespace(batch_size=16, dataset_path='./npz', epochs=50, eval=True, exp_name='13', lr=0.001, model_path='', momentum=0.9, no_cuda=False, num_points=2048, predict=False, seed=1234, test_batch_size=1, train=False, use_sgd=False, **{'embedd dims': 512})
+==FINAL TEST==
+mean test loss: 1086.725292	 ME 3d: 0.356127	 ACC 3d: 0.000000
+Namespace(batch_size=16, dataset_path='./npz', epochs=50, eval=True, exp_name='13', lr=0.001, model_path='', momentum=0.9, no_cuda=False, num_points=2048, predict=False, seed=1234, test_batch_size=1, train=False, use_sgd=False, **{'embedd dims': 512})
+==FINAL TEST==
+mean test loss: 1202.902848	 ME 3d: 0.528294	 ACC 3d: 0.000000
+Namespace(batch_size=16, dataset_path='./npz', epochs=50, eval=True, exp_name='13', lr=0.001, model_path='', momentum=0.9, no_cuda=False, num_points=2048, predict=False, seed=1234, test_batch_size=1, train=False, use_sgd=False, **{'embedd dims': 512})
+==FINAL TEST==
+mean test loss: 207.722316	 ME 3d: 0.217441	 ACC 3d: 0.000000
+Namespace(batch_size=16, dataset_path='./npz', epochs=50, eval=True, exp_name='13', lr=0.001, model_path='', momentum=0.9, no_cuda=False, num_points=2048, predict=False, seed=1234, test_batch_size=1, train=False, use_sgd=False, **{'embedd dims': 512})
+==FINAL TEST==
+mean test loss: 207.722316	 ME 3d: 0.217441	 ACC 3d: 0.000000
+Namespace(batch_size=16, dataset_path='./npz', epochs=50, eval=True, exp_name='13', lr=0.001, model_path='', momentum=0.9, no_cuda=False, num_points=2048, predict=False, seed=1234, test_batch_size=1, train=False, use_sgd=False, **{'embedd dims': 512})
+==FINAL TEST==
+mean test loss: 1202.902848	 ME 3d: 0.528294	 ACC 3d: 0.000000
+Namespace(batch_size=16, dataset_path='./npz', epochs=50, eval=True, exp_name='13', lr=0.001, model_path='', momentum=0.9, no_cuda=False, num_points=2048, predict=False, seed=1234, test_batch_size=1, train=False, use_sgd=False, **{'embedd dims': 512})
+==FINAL TEST==
+mean test loss: 12.409025	 ME 3d: 0.121669	 ACC 3d: 0.000000

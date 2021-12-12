@@ -1,0 +1,2 @@
+Namespace(batch_size=16, dataset_path='./npz', epochs=50, eval=False, exp_name='4', lr=0.001, model_path='', momentum=0.9, no_cuda=False, num_points=2048, seed=1234, test_batch_size=8, train=True, use_sgd=False, **{'embedd dims': 512})
+==Epoch: 0, learning rate: 0.001000==

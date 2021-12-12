@@ -1,0 +1,118 @@
+Namespace(batch_size=16, dataset_path='./npz', epochs=50, eval=False, exp_name='12', lr=0.001, model_path='', momentum=0.9, no_cuda=False, num_points=2048, predict=False, seed=1234, test_batch_size=8, train=True, use_sgd=False, **{'embedd dims': 512})
+==Epoch: 0, learning rate: 0.001000==
+Namespace(batch_size=64, dataset_path='./npz', epochs=50, eval=False, exp_name='12', lr=0.001, model_path='', momentum=0.9, no_cuda=False, num_points=2048, predict=False, seed=1234, test_batch_size=32, train=True, use_sgd=False, **{'embedd dims': 512})
+==Epoch: 0, learning rate: 0.001000==
+Namespace(batch_size=16, dataset_path='./npz', epochs=50, eval=False, exp_name='12', lr=0.001, model_path='', momentum=0.9, no_cuda=False, num_points=2048, predict=False, seed=1234, test_batch_size=8, train=True, use_sgd=False, **{'embedd dims': 512})
+==Epoch: 0, learning rate: 0.001000==
+mean train ME loss: 2.558327
+Namespace(batch_size=16, dataset_path='./npz', epochs=50, eval=False, exp_name='12', lr=0.001, model_path='', momentum=0.9, no_cuda=False, num_points=2048, predict=False, seed=1234, test_batch_size=8, train=True, use_sgd=False, **{'embedd dims': 512})
+==Epoch: 0, learning rate: 0.001000==
+Namespace(batch_size=16, dataset_path='./npz', epochs=50, eval=False, exp_name='12', lr=0.001, model_path='', momentum=0.9, no_cuda=False, num_points=2048, predict=False, seed=1234, test_batch_size=8, train=True, use_sgd=False, **{'embedd dims': 512})
+==Epoch: 0, learning rate: 0.001000==
+Namespace(batch_size=16, dataset_path='./npz', epochs=50, eval=False, exp_name='12', lr=0.001, model_path='', momentum=0.9, no_cuda=False, num_points=2048, predict=False, seed=1234, test_batch_size=8, train=True, use_sgd=False, **{'embedd dims': 512})
+==Epoch: 0, learning rate: 0.001000==
+mean train ME loss: 2.549604
+Namespace(batch_size=16, dataset_path='./npz', epochs=50, eval=False, exp_name='12', lr=0.001, model_path='', momentum=0.9, no_cuda=False, num_points=2048, predict=False, seed=1234, test_batch_size=8, train=True, use_sgd=False, **{'embedd dims': 512})
+==Epoch: 0, learning rate: 0.001000==
+mean train ME loss: 2.547938
+Namespace(batch_size=16, dataset_path='./npz', epochs=50, eval=False, exp_name='12', lr=0.001, model_path='', momentum=0.9, no_cuda=False, num_points=2048, predict=False, seed=1234, test_batch_size=8, train=True, use_sgd=False, **{'embedd dims': 512})
+==Epoch: 0, learning rate: 0.001000==
+mean train ME loss: 2.555440
+mean test loss: 1101.791671	 ME 3d: 0.354593	 ACC 3d: 0.000000
+Best test loss till now: 1101.791671
+Saved model!
+==Epoch: 1, learning rate: 0.001000==
+mean train ME loss: 2.501351
+mean test loss: 1099.401997	 ME 3d: 0.359276	 ACC 3d: 0.000000
+Best test loss till now: 1099.401997
+Saved model!
+==Epoch: 2, learning rate: 0.001000==
+mean train ME loss: 2.495560
+mean test loss: 1083.422704	 ME 3d: 0.310344	 ACC 3d: 0.000000
+Best test loss till now: 1083.422704
+Saved model!
+==Epoch: 3, learning rate: 0.001000==
+mean train ME loss: 2.483947
+mean test loss: 1082.533831	 ME 3d: 0.328613	 ACC 3d: 0.000000
+Best test loss till now: 1082.533831
+Saved model!
+==Epoch: 4, learning rate: 0.001000==
+mean train ME loss: 2.502471
+mean test loss: 1091.784855	 ME 3d: 0.316402	 ACC 3d: 0.000000
+==Epoch: 5, learning rate: 0.001000==
+mean train ME loss: 2.496525
+mean test loss: 1137.527301	 ME 3d: 0.510666	 ACC 3d: 0.000000
+==Epoch: 6, learning rate: 0.001000==
+mean train ME loss: 2.491915
+mean test loss: 1080.660668	 ME 3d: 0.283737	 ACC 3d: 0.000000
+Best test loss till now: 1080.660668
+Saved model!
+==Epoch: 7, learning rate: 0.001000==
+mean train ME loss: 2.478165
+mean test loss: 1121.125868	 ME 3d: 0.472420	 ACC 3d: 0.000000
+==Epoch: 8, learning rate: 0.001000==
+mean train ME loss: 2.466808
+mean test loss: 1097.538579	 ME 3d: 0.393929	 ACC 3d: 0.000000
+==Epoch: 9, learning rate: 0.001000==
+mean train ME loss: 2.447961
+mean test loss: 1080.404912	 ME 3d: 0.305334	 ACC 3d: 0.000000
+Best test loss till now: 1080.404912
+Saved model!
+==Epoch: 10, learning rate: 0.000700==
+mean train ME loss: 2.414310
+mean test loss: 1138.648435	 ME 3d: 0.522781	 ACC 3d: 0.000000
+==Epoch: 11, learning rate: 0.000700==
+mean train ME loss: 2.364496
+mean test loss: 10878.210383	 ME 3d: 3.304499	 ACC 3d: 0.000000
+==Epoch: 12, learning rate: 0.000700==
+mean train ME loss: 2.330146
+mean test loss: 2091.331845	 ME 3d: 0.794753	 ACC 3d: 0.000000
+==Epoch: 13, learning rate: 0.000700==
+mean train ME loss: 2.280526
+mean test loss: 1109.190609	 ME 3d: 0.445621	 ACC 3d: 0.000000
+==Epoch: 14, learning rate: 0.000700==
+mean train ME loss: 2.304565
+mean test loss: 1089.584169	 ME 3d: 0.383328	 ACC 3d: 0.000000
+==Epoch: 15, learning rate: 0.000700==
+mean train ME loss: 2.258017
+mean test loss: 1188.326788	 ME 3d: 0.644413	 ACC 3d: 0.000000
+==Epoch: 16, learning rate: 0.000700==
+mean train ME loss: 2.211255
+mean test loss: 1126.523335	 ME 3d: 0.464185	 ACC 3d: 0.000000
+==Epoch: 17, learning rate: 0.000700==
+mean train ME loss: 2.156861
+mean test loss: 1132.964013	 ME 3d: 0.496982	 ACC 3d: 0.000000
+==Epoch: 18, learning rate: 0.000700==
+mean train ME loss: 2.159294
+mean test loss: 1257.381182	 ME 3d: 0.611219	 ACC 3d: 0.000000
+==Epoch: 19, learning rate: 0.000700==
+mean train ME loss: 2.188512
+mean test loss: 1096.374702	 ME 3d: 0.353224	 ACC 3d: 0.000000
+==Epoch: 20, learning rate: 0.000490==
+mean train ME loss: 2.089651
+mean test loss: 1668.505710	 ME 3d: 1.028408	 ACC 3d: 0.000000
+==Epoch: 21, learning rate: 0.000490==
+mean train ME loss: 2.059470
+mean test loss: 1181.514972	 ME 3d: 0.581069	 ACC 3d: 0.000000
+==Epoch: 22, learning rate: 0.000490==
+Namespace(batch_size=16, dataset_path='./npz', epochs=50, eval=True, exp_name='12', lr=0.001, model_path='', momentum=0.9, no_cuda=False, num_points=2048, predict=False, seed=1234, test_batch_size=8, train=False, use_sgd=False, **{'embedd dims': 512})
+Namespace(batch_size=16, dataset_path='./npz', epochs=50, eval=True, exp_name='12', lr=0.001, model_path='', momentum=0.9, no_cuda=False, num_points=2048, predict=False, seed=1234, test_batch_size=1, train=False, use_sgd=False, **{'embedd dims': 512})
+Namespace(batch_size=16, dataset_path='./npz', epochs=50, eval=False, exp_name='12', lr=0.001, model_path='', momentum=0.9, no_cuda=False, num_points=2048, predict=True, seed=1234, test_batch_size=1, train=False, use_sgd=False, **{'embedd dims': 512})
+Namespace(batch_size=16, dataset_path='./npz', epochs=50, eval=False, exp_name='12', lr=0.001, model_path='', momentum=0.9, no_cuda=False, num_points=2048, predict=True, seed=1234, test_batch_size=1, train=False, use_sgd=False, **{'embedd dims': 512})
+Namespace(batch_size=16, dataset_path='./npz', epochs=50, eval=True, exp_name='12', lr=0.001, model_path='', momentum=0.9, no_cuda=False, num_points=2048, predict=False, seed=1234, test_batch_size=1, train=False, use_sgd=False, **{'embedd dims': 512})
+Namespace(batch_size=16, dataset_path='./npz', epochs=50, eval=True, exp_name='12', lr=0.001, model_path='', momentum=0.9, no_cuda=False, num_points=2048, predict=False, seed=1234, test_batch_size=1, train=False, use_sgd=False, **{'embedd dims': 512})
+Namespace(batch_size=16, dataset_path='./npz', epochs=50, eval=True, exp_name='12', lr=0.001, model_path='', momentum=0.9, no_cuda=False, num_points=2048, predict=False, seed=1234, test_batch_size=1, train=False, use_sgd=False, **{'embedd dims': 512})
+Namespace(batch_size=16, dataset_path='./npz', epochs=50, eval=True, exp_name='12', lr=0.001, model_path='', momentum=0.9, no_cuda=False, num_points=2048, predict=False, seed=1234, test_batch_size=1, train=False, use_sgd=False, **{'embedd dims': 512})
+Namespace(batch_size=16, dataset_path='./npz', epochs=50, eval=True, exp_name='12', lr=0.001, model_path='', momentum=0.9, no_cuda=False, num_points=2048, predict=False, seed=1234, test_batch_size=1, train=False, use_sgd=False, **{'embedd dims': 512})
+Namespace(batch_size=16, dataset_path='./npz', epochs=50, eval=True, exp_name='12', lr=0.001, model_path='', momentum=0.9, no_cuda=False, num_points=2048, predict=False, seed=1234, test_batch_size=1, train=False, use_sgd=False, **{'embedd dims': 512})
+Namespace(batch_size=16, dataset_path='./npz', epochs=50, eval=True, exp_name='12', lr=0.001, model_path='', momentum=0.9, no_cuda=False, num_points=2048, predict=False, seed=1234, test_batch_size=1, train=False, use_sgd=False, **{'embedd dims': 512})
+==FINAL TEST==
+mean test loss: 1220.856622	 ME 3d: 0.489054	 ACC 3d: 0.000000
+Namespace(batch_size=16, dataset_path='./npz', epochs=50, eval=True, exp_name='12', lr=0.001, model_path='', momentum=0.9, no_cuda=False, num_points=2048, predict=False, seed=1234, test_batch_size=1, train=False, use_sgd=False, **{'embedd dims': 512})
+==FINAL TEST==
+mean test loss: 201.477393	 ME 3d: 0.166581	 ACC 3d: 0.000000
+Namespace(batch_size=16, dataset_path='./npz', epochs=50, eval=True, exp_name='12', lr=0.001, model_path='', momentum=0.9, no_cuda=False, num_points=2048, predict=False, seed=1234, test_batch_size=1, train=False, use_sgd=False, **{'embedd dims': 512})
+Namespace(batch_size=16, dataset_path='./npz', epochs=50, eval=True, exp_name='12', lr=0.001, model_path='', momentum=0.9, no_cuda=False, num_points=2048, predict=False, seed=1234, test_batch_size=1, train=False, use_sgd=False, **{'embedd dims': 512})
+Namespace(batch_size=16, dataset_path='./npz', epochs=50, eval=True, exp_name='12', lr=0.001, model_path='', momentum=0.9, no_cuda=False, num_points=2048, predict=False, seed=1234, test_batch_size=1, train=False, use_sgd=False, **{'embedd dims': 512})
+==FINAL TEST==
+mean test loss: 201.477393	 ME 3d: 0.166581	 ACC 3d: 0.000000

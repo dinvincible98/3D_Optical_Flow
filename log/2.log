@@ -1,0 +1,162 @@
+Namespace(batch_size=16, dataset_path='./npz', epochs=50, eval=False, exp_name='2', lr=0.001, model_path='', momentum=0.9, no_cuda=False, num_points=2048, seed=1234, test_batch_size=8, train=True, use_sgd=False, **{'embedd dims': 512})
+==Epoch: 0, learning rate: 0.001000==
+mean train ME loss: 1.261126
+mean test loss: 0.750935	 ME 3d: 0.340418	 ACC 3d: 0.000000	 ACC2 3d: 0.000003
+Best test loss till now: 0.750935
+==Epoch: 1, learning rate: 0.001000==
+mean train ME loss: 1.237018
+mean test loss: 0.740670	 ME 3d: 0.377175	 ACC 3d: 0.000000	 ACC2 3d: 0.000003
+Best test loss till now: 0.740670
+==Epoch: 2, learning rate: 0.001000==
+mean train ME loss: 1.237059
+mean test loss: 0.735641	 ME 3d: 0.331951	 ACC 3d: 0.000000	 ACC2 3d: 0.000000
+Best test loss till now: 0.735641
+==Epoch: 3, learning rate: 0.001000==
+mean train ME loss: 1.236438
+mean test loss: 0.741537	 ME 3d: 0.380468	 ACC 3d: 0.000000	 ACC2 3d: 0.000000
+==Epoch: 4, learning rate: 0.001000==
+mean train ME loss: 1.236182
+mean test loss: 0.742861	 ME 3d: 0.382111	 ACC 3d: 0.000000	 ACC2 3d: 0.000016
+==Epoch: 5, learning rate: 0.001000==
+mean train ME loss: 1.235842
+mean test loss: 0.734130	 ME 3d: 0.308726	 ACC 3d: 0.000000	 ACC2 3d: 0.000000
+Best test loss till now: 0.734130
+==Epoch: 6, learning rate: 0.001000==
+mean train ME loss: 1.231633
+mean test loss: 0.739239	 ME 3d: 0.356580	 ACC 3d: 0.000000	 ACC2 3d: 0.000000
+==Epoch: 7, learning rate: 0.001000==
+mean train ME loss: 1.222756
+mean test loss: 0.894079	 ME 3d: 0.809616	 ACC 3d: 0.000000	 ACC2 3d: 0.000000
+==Epoch: 8, learning rate: 0.001000==
+mean train ME loss: 1.207462
+mean test loss: 0.734458	 ME 3d: 0.299484	 ACC 3d: 0.000000	 ACC2 3d: 0.000000
+==Epoch: 9, learning rate: 0.001000==
+mean train ME loss: 1.201877
+mean test loss: 3.773178	 ME 3d: 2.170038	 ACC 3d: 0.000003	 ACC2 3d: 0.000012
+==Epoch: 10, learning rate: 0.000700==
+mean train ME loss: 1.189428
+mean test loss: 1.228412	 ME 3d: 1.219725	 ACC 3d: 0.000000	 ACC2 3d: 0.000000
+==Epoch: 11, learning rate: 0.000700==
+mean train ME loss: 1.177906
+mean test loss: 0.833865	 ME 3d: 0.618298	 ACC 3d: 0.000146	 ACC2 3d: 0.000983
+==Epoch: 12, learning rate: 0.000700==
+mean train ME loss: 1.144548
+mean test loss: 1.674382	 ME 3d: 1.598899	 ACC 3d: 0.000000	 ACC2 3d: 0.000000
+==Epoch: 13, learning rate: 0.000700==
+mean train ME loss: 1.121744
+mean test loss: 1.497659	 ME 3d: 1.376059	 ACC 3d: 0.000001	 ACC2 3d: 0.000004
+==Epoch: 14, learning rate: 0.000700==
+mean train ME loss: 1.112051
+mean test loss: 3.850831	 ME 3d: 2.502891	 ACC 3d: 0.000000	 ACC2 3d: 0.000000
+==Epoch: 15, learning rate: 0.000700==
+mean train ME loss: 1.098441
+mean test loss: 0.798877	 ME 3d: 0.564301	 ACC 3d: 0.000000	 ACC2 3d: 0.000000
+==Epoch: 16, learning rate: 0.000700==
+mean train ME loss: 1.098494
+mean test loss: 0.876259	 ME 3d: 0.703781	 ACC 3d: 0.000000	 ACC2 3d: 0.000000
+==Epoch: 17, learning rate: 0.000700==
+mean train ME loss: 1.092791
+mean test loss: 0.852700	 ME 3d: 0.627227	 ACC 3d: 0.000000	 ACC2 3d: 0.000000
+==Epoch: 18, learning rate: 0.000700==
+mean train ME loss: 1.067013
+mean test loss: 0.978229	 ME 3d: 0.792483	 ACC 3d: 0.000000	 ACC2 3d: 0.000001
+==Epoch: 19, learning rate: 0.000700==
+mean train ME loss: 1.069467
+mean test loss: 2.719317	 ME 3d: 1.951562	 ACC 3d: 0.000000	 ACC2 3d: 0.000000
+==Epoch: 20, learning rate: 0.000490==
+mean train ME loss: 1.046777
+mean test loss: 2.687966	 ME 3d: 2.010044	 ACC 3d: 0.000006	 ACC2 3d: 0.000030
+==Epoch: 21, learning rate: 0.000490==
+mean train ME loss: 1.023596
+mean test loss: 0.759991	 ME 3d: 0.471891	 ACC 3d: 0.000000	 ACC2 3d: 0.000001
+==Epoch: 22, learning rate: 0.000490==
+mean train ME loss: 1.015724
+mean test loss: 0.843542	 ME 3d: 0.696372	 ACC 3d: 0.000000	 ACC2 3d: 0.000000
+==Epoch: 23, learning rate: 0.000490==
+mean train ME loss: 1.010488
+mean test loss: 2.699489	 ME 3d: 2.080955	 ACC 3d: 0.000008	 ACC2 3d: 0.000069
+==Epoch: 24, learning rate: 0.000490==
+mean train ME loss: 0.996712
+mean test loss: 1.002523	 ME 3d: 0.876169	 ACC 3d: 0.000000	 ACC2 3d: 0.000000
+==Epoch: 25, learning rate: 0.000490==
+mean train ME loss: 0.990952
+mean test loss: 6.075228	 ME 3d: 3.223496	 ACC 3d: 0.000003	 ACC2 3d: 0.000054
+==Epoch: 26, learning rate: 0.000490==
+mean train ME loss: 1.008116
+mean test loss: 2.557594	 ME 3d: 1.841150	 ACC 3d: 0.000003	 ACC2 3d: 0.000025
+==Epoch: 27, learning rate: 0.000490==
+mean train ME loss: 0.977031
+mean test loss: 0.835197	 ME 3d: 0.637219	 ACC 3d: 0.000000	 ACC2 3d: 0.000000
+==Epoch: 28, learning rate: 0.000490==
+mean train ME loss: 0.961672
+mean test loss: 1.458448	 ME 3d: 1.294982	 ACC 3d: 0.000000	 ACC2 3d: 0.000000
+==Epoch: 29, learning rate: 0.000490==
+mean train ME loss: 0.958923
+mean test loss: 0.933950	 ME 3d: 0.864619	 ACC 3d: 0.000000	 ACC2 3d: 0.000000
+==Epoch: 30, learning rate: 0.000343==
+mean train ME loss: 0.952128
+mean test loss: 0.875840	 ME 3d: 0.579589	 ACC 3d: 0.000024	 ACC2 3d: 0.000205
+==Epoch: 31, learning rate: 0.000343==
+mean train ME loss: 0.936099
+mean test loss: 0.769790	 ME 3d: 0.408495	 ACC 3d: 0.000053	 ACC2 3d: 0.000442
+==Epoch: 32, learning rate: 0.000343==
+mean train ME loss: 0.914393
+mean test loss: 2.503847	 ME 3d: 1.994963	 ACC 3d: 0.000000	 ACC2 3d: 0.000001
+==Epoch: 33, learning rate: 0.000343==
+mean train ME loss: 0.914914
+mean test loss: 2.366504	 ME 3d: 1.185292	 ACC 3d: 0.000015	 ACC2 3d: 0.000117
+==Epoch: 34, learning rate: 0.000343==
+mean train ME loss: 0.915552
+mean test loss: 0.884427	 ME 3d: 0.716811	 ACC 3d: 0.000000	 ACC2 3d: 0.000004
+==Epoch: 35, learning rate: 0.000343==
+mean train ME loss: 0.895468
+mean test loss: 0.853490	 ME 3d: 0.469943	 ACC 3d: 0.000001	 ACC2 3d: 0.000005
+==Epoch: 36, learning rate: 0.000343==
+mean train ME loss: 0.906263
+mean test loss: 0.751263	 ME 3d: 0.413921	 ACC 3d: 0.000001	 ACC2 3d: 0.000004
+==Epoch: 37, learning rate: 0.000343==
+mean train ME loss: 0.886918
+mean test loss: 1.638169	 ME 3d: 0.528067	 ACC 3d: 0.000003	 ACC2 3d: 0.000062
+==Epoch: 38, learning rate: 0.000343==
+mean train ME loss: 0.894653
+mean test loss: 1.182047	 ME 3d: 0.965751	 ACC 3d: 0.000015	 ACC2 3d: 0.000109
+==Epoch: 39, learning rate: 0.000343==
+mean train ME loss: 0.883759
+mean test loss: 0.938298	 ME 3d: 0.670590	 ACC 3d: 0.000004	 ACC2 3d: 0.000028
+==Epoch: 40, learning rate: 0.000240==
+mean train ME loss: 0.871944
+mean test loss: 2.028955	 ME 3d: 1.411135	 ACC 3d: 0.000057	 ACC2 3d: 0.000515
+==Epoch: 41, learning rate: 0.000240==
+mean train ME loss: 0.868515
+mean test loss: 0.781134	 ME 3d: 0.364180	 ACC 3d: 0.000009	 ACC2 3d: 0.000212
+==Epoch: 42, learning rate: 0.000240==
+mean train ME loss: 0.864419
+mean test loss: 0.959576	 ME 3d: 0.499706	 ACC 3d: 0.000147	 ACC2 3d: 0.001664
+==Epoch: 43, learning rate: 0.000240==
+mean train ME loss: 0.861463
+mean test loss: 6.218933	 ME 3d: 2.288673	 ACC 3d: 0.000035	 ACC2 3d: 0.000357
+==Epoch: 44, learning rate: 0.000240==
+mean train ME loss: 0.866472
+mean test loss: 1.423681	 ME 3d: 1.057844	 ACC 3d: 0.000201	 ACC2 3d: 0.001699
+==Epoch: 45, learning rate: 0.000240==
+mean train ME loss: 0.852977
+mean test loss: 1.896017	 ME 3d: 0.631870	 ACC 3d: 0.000116	 ACC2 3d: 0.001137
+==Epoch: 46, learning rate: 0.000240==
+mean train ME loss: 0.858203
+mean test loss: 0.755513	 ME 3d: 0.371236	 ACC 3d: 0.000003	 ACC2 3d: 0.000019
+==Epoch: 47, learning rate: 0.000240==
+mean train ME loss: 0.858761
+mean test loss: 2.714821	 ME 3d: 2.051497	 ACC 3d: 0.000007	 ACC2 3d: 0.000052
+==Epoch: 48, learning rate: 0.000240==
+mean train ME loss: 0.852632
+mean test loss: 3.919899	 ME 3d: 2.670031	 ACC 3d: 0.000001	 ACC2 3d: 0.000006
+==Epoch: 49, learning rate: 0.000240==
+mean train ME loss: 0.852278
+mean test loss: 0.747067	 ME 3d: 0.349276	 ACC 3d: 0.000003	 ACC2 3d: 0.000034
+Training time spent: 3.625335 h
+Namespace(batch_size=16, dataset_path='./npz', epochs=50, eval=True, exp_name='2', lr=0.001, model_path='', momentum=0.9, no_cuda=False, num_points=2048, seed=1234, test_batch_size=8, train=False, use_sgd=False, **{'embedd dims': 512})
+==FINAL TEST==
+mean test loss: 0.734130	 ME 3d: 0.308726	 ACC 3d: 0.000000	 ACC2 3d: 0.000000
+Namespace(batch_size=16, dataset_path='./npz', epochs=50, eval=True, exp_name='2', lr=0.001, model_path='', momentum=0.9, no_cuda=False, num_points=2048, seed=1234, test_batch_size=8, train=False, use_sgd=False, **{'embedd dims': 512})
+==FINAL TEST==
+mean test loss: 0.734130	 ME 3d: 0.308726	 ACC 3d: 0.000000	 ACC2 3d: 0.000000
