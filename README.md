@@ -15,6 +15,7 @@ The project is focused on using a rgbd camera(Intel Realsense D435i) to capture 
 #### Part 1.Setup simulation environment
 
 The simulation is all done in Gazebo. The realsense camera is pointing at the small cube which is the moving object. The giant cube behind acts like a static wall. The idea here is when the small cube is moving which means its pointcloud is also shifting, whereas the wall will not move and act like a ground reference. It is important for the deep learning model to learn the motion.
+![screenshot-from-2021-12-11-18-](https://user-images.githubusercontent.com/70287453/145702636-4ffe441d-6626-43e1-ae83-daf4163bf32a.png)
 
 #### Part 2.Post-processing raw pointcloud data
 In this step, I used PCL library for post-processing raw pointcloud data. I used passfilters, voxelgrid filter to filter out unnecessary point clouds and only focuses on ROI(region of interest).
