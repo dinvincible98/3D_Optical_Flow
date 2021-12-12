@@ -12,20 +12,21 @@ The project is focused on using a rgbd camera(Intel Realsense D435i) to capture 
 * C++, python3(3.8.1)
 
 ### Structure of The Project
-* log - Contains all log files for trainning models
+* log: Folder for all log files for trainning models.
 
-* models
+* models: Folder for all models.
 
-* npz
+* npz: Training & Testing Data folder.
 
-* src
+* src: Contains all script.
 
-* data_src
+* img: Visualization images. 
 
-* main.py
+* data_src: Python utils file for matching pointcloud and corresponding motion.
 
-* visualize.py
+* main.py: Main file for trainning the model.
 
+* visualize.py: Visualization script.
 
 
 ### Steps
