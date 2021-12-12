@@ -12,6 +12,17 @@ The project is focused on using a rgbd camera(Intel Realsense D435i) to capture 
 * C++, python3(3.8.1)
 
 ### Structure of The Project
+|__ log 
+|__ models
+|__ npz
+|__ src
+|__ data_src
+|__ main.py
+|__ visualize.py
+
+
+
+### Steps
 #### Part 1.Setup simulation environment
 
 The simulation is all done in Gazebo. The realsense camera is pointing at the small cube which is the moving object. The giant cube behind acts like a static wall. The idea here is when the small cube is moving which means its pointcloud is also shifting, whereas the wall will not move and act like a ground reference. It is important for the deep learning model to learn the motion.
