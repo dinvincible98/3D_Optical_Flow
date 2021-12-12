@@ -18,11 +18,15 @@ The simulation is all done in Gazebo. The realsense camera is pointing at the sm
 ![screenshot-from-2021-12-11-18-](https://user-images.githubusercontent.com/70287453/145702636-4ffe441d-6626-43e1-ae83-daf4163bf32a.png)
 
 #### Part 2.Post-processing raw pointcloud data
+
 In this step, I used PCL library for post-processing raw pointcloud data. I used passfilters, voxelgrid filter to filter out unnecessary point clouds and only focuses on ROI(region of interest).
+![Webp net-resizeimage](https://user-images.githubusercontent.com/70287453/145702641-c1b3c073-bc2f-4fcc-b7cf-b4ede0dc86e6.png)
+
 
 #### Part 3.Given random gaussian motion
 
 I wrote a ROS simulation node which subscribe the states of the cube from gazebo world then publish a motion with gaussian noise added to it. The motion is very small(<5mm) since I want to achieve sub-pixel movement prediction.
+
 
 #### Part 4.Capture pointcloud data and corresponding groundtruth motion
 
