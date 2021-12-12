@@ -20,6 +20,7 @@ The simulation is all done in Gazebo. The realsense camera is pointing at the sm
 #### Part 2.Post-processing raw pointcloud data
 
 In this step, I used PCL library for post-processing raw pointcloud data. I used passfilters, voxelgrid filter to filter out unnecessary point clouds and only focuses on ROI(region of interest).
+
 ![Webp net-resizeimage](https://user-images.githubusercontent.com/70287453/145702641-c1b3c073-bc2f-4fcc-b7cf-b4ede0dc86e6.png)
 
 
